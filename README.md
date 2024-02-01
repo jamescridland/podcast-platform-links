@@ -63,7 +63,6 @@ The distributed nature of podcasting makes it complicated to link to a show/epis
 | Podknife            | ✅            | `https://podknife.com/podcast?feed_url=${feedURL}`                                                                                            |
 | podStation          | ✅            | `https://podstation.github.io/subscribe-ext/?feedURL=${feedURL}`                                                                              |
 | Podverse            | ✅            | `https://api.podverse.fm/api/v1/podcast/podcastindex/${podcastIndexShowID}`                                                                   |
-| RadioPublic         | ✅            | `https://radiopublic.com/${encodeURIComponent(feedUrl)}`                                                                                      |
 | Snipd               | ❌            | `https://share.snipd.com/show/${uniquePlatformID}`                                                                                            |
 | Sonnet              | ✅            | `https://sonnet.fm/p/${appleID}`                                                                                                              |
 | Spotify             | ❌            | `https://open.spotify.com/${uniquePlatformID}`                                                                                                |
@@ -101,7 +100,6 @@ The distributed nature of podcasting makes it complicated to link to a show/epis
 | Podfriend           | ❌            | `https://web.podfriend.com/podcast/${appleID}/${uniqueEpisodeID}`                                 |
 | Podknife            | ❌            | `https://podknife.com/episodes/${uniqueEpisodeID}`                                                |
 | Podverse            | ❌            | `https://podverse.fm/episode/${uniqueEpisodeID}`                                                  |
-| RadioPublic         | ✅            | `https://radiopublic.com/${encodeURIComponent(feedUrl)}/${uniqueEpisodeID}`                       |
 | Snipd               | ❌            | `https://share.snipd.com/episode/${uniquePlatformID}`                                             |
 | Sonnet              | ❌            | `https://sonnet.fm/p/${appleID}/${uniqueEpisodeID}`                                               |
 | Spotify             | ❌            | `https://open.spotify.com/episode/${uniqueEpisodeID}`                                             |
